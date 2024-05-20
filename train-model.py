@@ -122,4 +122,5 @@ model.fit(
     validation_data=val_ds,
 )
 
+# TODO: Export model vừa train, có thể dùng file này load lên để test.
 # TODO: Viết test cho model đã train
