@@ -1,11 +1,16 @@
 # PTDLTM
-- Đê test model, tải model theo link : https://drive.google.com/file/d/17D614ABIMkMr7OHgB4evquIcZOB5YZl5/view?usp=drive_link
 
-~ 800MB, đặt cùng thư mục với test-model.ipynb
+- Trong thư mục output có file plot độ lỗi khi train cho dữ liêu train + validation, trong file link-model.txt chứa 2 model đã train được yêu cầu (model bình thường + LLM)
+- Để train cả 2 model có thể chạy trên google colab, đặt thư mục file train.csv và test.csv lên thư mục gốc của drive.
+- Thầy/cô có thể xem các output từng cell chứa quá trình tụi em đã train và thống kê kết quả.
 
-- Để train model có thể chạy trên google colab, bỏ # mấy lệnh đầu tiên để tải đúng phiên bản, và để file train.csv lên drive. Nếu chạy trên máy thì tải đúng phiên bản được ghi ở đầu. ~ 15p 1 epoch
+- Model yêu cầu:
 
-- Trong thư mục output có file plot độ lỗi khi train cho dữ liêu train + validation, trong file model-train.ipynb có lưu lại quá trình train.
+  - Chạy full file model-yeu-cau.ipynb để train và trả về plot + kết quả test.
 
+- LLM:
 
+  - File train-LLM dùng để train model LLM.
+  - Có thể Sử dụng file test-LLM.ipynb để test model LLM, tải model theo link bên trên. ~ 800MB, đặt cùng thư mục với test-llm.ipynb
 
+  - Để train model có thể chạy trên google colab, đặt thư mục file train.csv và test.csv lên thư mục gốc của drive ~ 15p 1 epoch
